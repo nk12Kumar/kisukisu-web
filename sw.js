@@ -4,7 +4,7 @@
  * connection. Nothing else is cached: there is no server to talk to yet, and
  * when there is, message data must never be written to the Cache API.
  */
-const VERSION = "kisukisu-v1";
+const VERSION = "kisukisu-v2";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
